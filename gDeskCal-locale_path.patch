@@ -1,0 +1,12 @@
+diff -aurN gDeskCal-0.55.orig/code/values.py gDeskCal-0.55/code/values.py
+--- gDeskCal-0.55.orig/code/values.py	2003-08-22 14:21:24.000000000 +0200
++++ gDeskCal-0.55/code/values.py	2003-10-14 20:56:21.232883720 +0200
+@@ -8,7 +8,7 @@
+ 
+ # locations
+ SKINDIR = "skins"
+-LOCALEDIR = "locale"
++LOCALEDIR = "/usr/share/locale"
+ GFXDIR = "data/gfx"
+ CONFIGDIR = "~/.gdeskcal"
+ 
