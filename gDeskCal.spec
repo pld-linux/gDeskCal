@@ -48,7 +48,7 @@ find  $RPM_BUILD_ROOT%{_datadir}/gdeskcal -name "*.py" -exec rm -f {} \;
 %find_lang %{name} --all-name
 
 %clean
-#rm -rf $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
