@@ -1,0 +1,37 @@
+--- gDeskCal-0.57.1/code/CalWindow.py~	2004-03-15 23:46:05.000000000 +0100
++++ gDeskCal-0.57.1/code/CalWindow.py	2004-08-28 02:49:51.459276368 +0200
+@@ -62,28 +62,12 @@
+         self.__layout.show()
+         self.add(self.__layout)
+ 
+-        # use gDesklets' EWMH module if available
+-        try:
+-            if (not config.get([conf.TEMPORARY, conf.USE_EWMH])):
+-                raise StandardError
+-            gdesklets_exe = commands.getoutput("which gdesklets")
+-            cwd = os.getcwd()
+-            os.chdir(os.path.dirname(gdesklets_exe))
+-            link_dest = os.path.dirname(os.readlink(gdesklets_exe))
+-            gdesklets_home = os.path.abspath(link_dest)
+-            os.chdir(cwd)
+-            sys.path.append(os.path.join(gdesklets_home, "utils"))
+-            import _ewmh
+-            self.realize()
+-            gtk.idle_add(_ewmh.set_below, self.window)
+-            
+-        except:
+-            gtk.idle_add(self.set_property, "skip-taskbar-hint", 1)
+-            gtk.idle_add(self.set_property, "skip-pager-hint", 1)
+-
+-            # keep window below others
+-            self.connect("focus-in-event", self.__lower_window)
+-            self.connect_after("button-press-event", self.__lower_window)
++        gtk.idle_add(self.set_property, "skip-taskbar-hint", 1)
++        gtk.idle_add(self.set_property, "skip-pager-hint", 1)
++
++        # keep window below others
++        self.connect("focus-in-event", self.__lower_window)
++        self.connect_after("button-press-event", self.__lower_window)
+ 
+ 
+ 
