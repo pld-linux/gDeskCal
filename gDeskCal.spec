@@ -10,6 +10,7 @@ Source0:	http://www.pycage.de/download/%{name}-%(echo %{version} | tr . _).tar.g
 Source1:	%{name}.desktop
 Patch0:		%{name}-locale_path.patch
 URL:		http://www.pycage.de/software_gdeskcal.html
+Requires:	python-pygtk
 Requires:	python-pygtk-gtk >= 1.99.16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
