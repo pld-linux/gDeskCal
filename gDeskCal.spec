@@ -2,7 +2,7 @@
 Summary:	A cute little eye-candy and quite useful calendar
 Name:		gDeskCal
 Version:	0.52
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/%{name}-%(echo %{version} | tr .  _).tar.gz
@@ -10,6 +10,7 @@ Source0:	http://www.pycage.de/download/%{name}-%(echo %{version} | tr .  _).tar.
 Source1:	%{name}.desktop
 URL:		http://www.pycage.de/software_gdeskcal.html
 Requires:	python-pygtk-gtk >= 1.99.16
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
