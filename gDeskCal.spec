@@ -2,7 +2,7 @@ Summary:	A cute little eye-candy and quite useful calendar
 Summary(pl):	Ma³y, przyci±gaj±cy oko i u¿yteczny kalendarz
 Name:		gDeskCal
 Version:	0.57
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/%{name}-%(echo %{version} | tr . _).tar.gz
@@ -10,7 +10,6 @@ Source0:	http://www.pycage.de/download/%{name}-%(echo %{version} | tr . _).tar.g
 Source1:	%{name}.desktop
 Patch0:		%{name}-locale_path.patch
 URL:		http://www.pycage.de/software_gdeskcal.html
-Requires:	python-pygtk
 Requires:	python-pygtk-gtk >= 1.99.16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
