@@ -7,5 +7,5 @@ Exec=gdeskcal
 Icon=gnome-calendar.png
 Terminal=false
 Type=Application
-Categories=GTK;Application;Calendar;
+Categories=GTK;Office;Calendar;
 # vi: encoding=utf-8
