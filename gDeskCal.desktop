@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=gDeskCal
+Name[pl]=gDeskCal
+Comment=Desktop calendar
+Exec=gdeskcal
+Icon=gnome-calendar.png
+Terminal=0
+Type=Application
+Categories=GTK;Application;Calendar
