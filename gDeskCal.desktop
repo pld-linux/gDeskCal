@@ -4,6 +4,6 @@ Name[pl]=gDeskCal
 Comment=Desktop calendar
 Exec=gdeskcal
 Icon=gnome-calendar.png
-Terminal=0
+Terminal=false
 Type=Application
 Categories=GTK;Application;Calendar
