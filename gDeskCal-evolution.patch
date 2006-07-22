@@ -1,0 +1,8 @@
+--- gDeskCal-0.57.1.orig/code/CalMediator.py	2004-03-15 23:46:05.000000000 +0100
++++ gDeskCal-0.57.1/code/CalMediator.py	2006-07-22 22:14:58.004276250 +0200
+@@ -326,4 +326,4 @@
+     #
+     def __cmd_evolution(self):
+ 
+-        os.system("evolution evolution:/local/Calendar &")
++        os.system("evolution -c calendar &")
