@@ -63,4 +63,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc NEWS AUTHORS README*
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/gdeskcal
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
