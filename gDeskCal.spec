@@ -1,5 +1,5 @@
 Summary:	A cute little eye-candy and quite useful calendar
-Summary(pl):	Ma³y, przyci±gaj±cy oko i u¿yteczny kalendarz
+Summary(pl.UTF-8):   MaÅ‚y, przyciÄ…gajÄ…cy oko i uÅ¼yteczny kalendarz
 Name:		gDeskCal
 Version:	0.57.1
 Release:	6
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A cute little eye-candy and quite useful calendar for your desktop.
 
-%description -l pl
-Ma³y, przyci±gaj±cy oko i u¿yteczny kalendarz dla pulpitu.
+%description -l pl.UTF-8
+MaÅ‚y, przyciÄ…gajÄ…cy oko i uÅ¼yteczny kalendarz dla pulpitu.
 
 %prep
 %setup -q
