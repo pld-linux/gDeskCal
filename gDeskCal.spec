@@ -1,5 +1,5 @@
 Summary:	A cute little eye-candy and quite useful calendar
-Summary(pl.UTF-8):   Mały, przyciągający oko i użyteczny kalendarz
+Summary(pl.UTF-8):	Mały, przyciągający oko i użyteczny kalendarz
 Name:		gDeskCal
 Version:	0.57.1
 Release:	6
