@@ -1,10 +1,9 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=gDeskCal
 Name[pl]=gDeskCal
 Comment=Desktop calendar
 Exec=gdeskcal
-Icon=gnome-calendar.png
+Icon=gnome-calendar
 Terminal=false
 Type=Application
 Categories=GTK;Office;Calendar;
